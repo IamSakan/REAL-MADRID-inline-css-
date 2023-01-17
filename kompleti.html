@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naročilo dresa</title>
+    <link rel="website icon" type="png" href="slike/dres.png">
+</head>
+<body style="background-color: #00529F; margin: 0px;">
+    <h1 style="font-family:'Times New Roman', Times, serif; background-color:#FEBE10; margin-top: 0px; color: white; text-align: center; font-size: 50px;" >Naročilo dresa</h1>
+    <center><form action="#" method="">
+        <fieldset style="width: 30%; background-color: #FEBE10; margin-top: 5%;">
+            <label for=""><u>Izberite komplet:</u></label> <br>
+            <input type="checkbox" name="komplet" id="">Domači dres<br>
+            <input type="checkbox" name="komplet" id="">Gostujoči dres<br>
+            <input type="checkbox" name="komplet" id="">Tretji dres<br><br>
+
+            <label for=""><u>Izberite spol:</u></label><br>
+            <input type="radio" name="spol" id="" checked>Moški<br>
+            <input type="radio" name="spol" id="">Ženski<br>
+            <input type="radio" name="spol" id="">Otrok<br><br>
+
+
+            <label for=""><u>Izberi velikost:</u></label><br>
+            <select name="velikost" id="" multiple>
+                <option value="velikost">M</option>
+                <option value="velikost">S</option>
+                <option value="velikost">XL</option>
+                <option value="velikost" selected>L</option>
+            </select> <br><br>
+
+            <label for="">Ime:&#42</label>
+            <input type="text" name="osebni" id="" autofocus required placeholder="Vnesi ime"><br><br>
+            <label for="">Priimek:</label>
+            <input type="text" name="osebni" id="" required placeholder="Vnesi priimek"><br><br>
+            <label for="">E-naslov:</label>
+            <input type="email" name="osebni" id="" placeholder="joze.novak@gmail.com"><br><br>
+
+            <label for="">Država:</label>
+            <input type="text" name="država" id="" required placeholder="Slovenija"> <br><br>
+
+            <label for="">Naslov:</label>
+            <input type="text" name="naslov" id="" required placeholder="Šegova ulica 112"> <br><br>
+
+            <label for="">Kraj in poštna št:</label>
+            <input type="text" name="kraj" id="" required placeholder="8000 Novo mesto"><br><br>
+        </fieldset>
+        <button onclick="location.href='spletna_stran_Sakanovic.html'">Nazaj</button>
+        <input type="submit" name="" id="" value="Pošlji naročilo">
+        <input type="reset" name="" id="" value="Počisti">
+    </form>
+</center>
+</body>
+</html>
